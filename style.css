@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Display Fair' ,serif ;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.quote-box{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     background-color: white;
+     height: 400px;
+     width: 700px;
+     text-align: center;
+     border-radius: 10px;
+     padding: 40px;
+     transform: translate(-50% , -50%);
+     box-shadow: 0 10px 20px 0px rgba(0 , 0 , 0 ,0.5);
+     
+}
+
+.quote-box h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.quote-box h2::after{
+    content: '';
+    width: 75px;
+    height: 30px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-box .line{
+    position: relative;
+    background-color: rgb(23, 124, 229);
+    height: 4px;
+    border-radius: 20px;
+    width: 90px;
+    text-align: center;
+    top:-30px ;
+    left: 43%;
+}
+
+.quote-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+
+.quote-box blockquote::before , .quote-box blockquote::after{
+    content: '"';
+    font-weight: 700;
+}
+
+.quote-box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.quote-box .line2{
+   position: relative;
+   background-color: rgb(23, 124, 229);
+   height: 4px;
+   width: 30px;
+   left: 80%;
+   top: 17px;
+   border-radius: 20px;
+}
+
+
+.quote-box button{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    margin: 10px;
+    font-family: poppins;
+    position: relative;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    background: rgb(23, 124, 229);
+    color: white;
+    cursor: pointer;
+    border-color: rgb(23, 124, 229);
+    outline: 0;
+}
+
+img{
+    height: 30px;
+    position: relative;
+    right: 100px;
+    top: 40px;
+}
+
+div .twitter{
+    color: rgb(23, 124, 229);
+    background-color: white;
+    outline-color: rgb(23, 124, 229);
+    border-color: rgb(23, 124, 229);
+}
+
+.quote-button{
+    border: none;
+}
+
